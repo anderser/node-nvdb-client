@@ -1,0 +1,44 @@
+{
+  "name": "node-nvdb-client",
+  "version": "0.0.0",
+  "description": "Access the NVDB API v2",
+  "license": "MIT",
+  "repository": "BergensTidende/node-nvdb-client",
+  "author": {
+    "name": "Anders Eriksen",
+    "email": "anders.eriksen@bt.no",
+    "url": "bt.no"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "http-debug": "^0.1.2",
+    "lodash": "^4.15.0",
+    "meow": "^3.7.0",
+    "node-rest-client": "^2.0.1",
+    "terraformer": "^1.0.6",
+    "turf": "^3.0.14",
+    "wellknown": "^0.5.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
