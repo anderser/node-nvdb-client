@@ -9,10 +9,12 @@ nvdb.connect(function() {
                 id: ''
             },
             parameters: {
-            	antall: 10,
-            	inkluder: 'alle',
+            	antall: 10000,
+            	inkluder: 'egenskaper,geometri',
             	srid: 4326,
-            	//overlapp: '532(4568=16)'
+                vegreferanse: 'Ev16',
+                kartutsnitt: '5.464603900909424,60.41706227453995,6.400566101074218,60.658040943395704',
+                egenskap: "5055>'2006-01-01'",
             }
         },
         function(data, response) {
