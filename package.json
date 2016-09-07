@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Access the NVDB API v2",
   "license": "MIT",
-  "repository": "https://github.schibsted.io/bergens-tidende/node-nvdb-client.git",
+  "repository": "anderser/node-nvdb-client",
   "author": {
     "name": "Anders Eriksen",
     "email": "anders.eriksen@bt.no",

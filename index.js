@@ -1,5 +1,5 @@
 'use strict';
-var NVDBClient = require('./lib/client');
+var NVDBClient = require('lib/client');
 
 module.exports = () => {
 
