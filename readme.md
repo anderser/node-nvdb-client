@@ -49,9 +49,6 @@ Returns geojson string which can be sendt to a file. `node myscript.js > mydata.
 
 Egenskaper in NVDB response are parsed into key value properties. (only `navn` and `verdi`) are used as of now.
 
-## TODO
-
-Error handling, tests, pagination and a lot more.
 
 ## License
 
