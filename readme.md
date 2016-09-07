@@ -7,7 +7,7 @@ Work in progress. Use at own risk.
 ## Install
 
 ```
-$ npm install --save node-nvdb-client
+$ install git://github.com/anderser/node-nvdb-client.git
 ```
 
 

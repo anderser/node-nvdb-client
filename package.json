@@ -1,6 +1,6 @@
 {
   "name": "node-nvdb-client",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Access the NVDB API v2",
   "license": "MIT",
   "repository": "anderser/node-nvdb-client",
